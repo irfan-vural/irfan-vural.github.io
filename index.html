@@ -3,50 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>İrfan Vural</title>
+    <title>İrfan Vural | Software Developer</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>İrfan Vural</h1>
-        <p>Software Developer</p>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-content">
+            <h1>İrfan Vural</h1>
+            <p>Versatile Software Developer | Mobile & Web Solutions</p>
+        </div>
     </header>
+
     <main>
-        <section>
+        <section id="about" class="about">
             <h2>About Me</h2>
-            <p>Hello! I'm Irfan, a versatile software developer with a strong foundation in creating intuitive and user-friendly applications. Over the past two years, I’ve honed my skills in Flutter, building seamless mobile experiences, but my journey in software development spans various technologies and domains. After four years of university, I chose to take charge of my career and focus on real-world problem-solving—a decision that has shaped me into the developer I am today. Driven by curiosity and a passion for innovation, I thrive on exploring new technologies and pushing boundaries across multiple areas of software development.</p>
+            <p>
+                Hello! I'm İrfan, a passionate software developer with over two years of hands-on experience in crafting intuitive and user-friendly applications. My primary focus is on mobile app development using Flutter, though I enjoy exploring various technologies and expanding my skill set. I thrive on solving real-world problems and continuously seek opportunities to innovate and improve.
+            </p>
         </section>
-        <section>
+
+        <section id="projects" class="projects">
             <h2>Projects</h2>
-            <ul>
-                <li>
-                    <a href="#">HAK Donation App</a> - A mobile app for humanitarian aid donations.
-                    <br>
+            <div class="project">
+                <h3>HAK Donation App</h3>
+                <p>A mobile app designed to facilitate humanitarian aid donations efficiently and securely.</p>
+                <div class="store-badges">
                     <a href="https://apps.apple.com/tr/app/hak-i-nsani-yard%C4%B1m/id1579838385?l=tr" target="_blank">
-                        <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="App Store" style="height: 40px;">
+                        <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store">
                     </a>
                     <a href="https://play.google.com/store/apps/details?id=com.hakinsaniyardim.hakder" target="_blank">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play Store" style="height: 40px;">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play">
                     </a>
-                   
-                </li>
-                <li>
-                    <a href="#">CaseBox</a> - A management tool tailored for law offices.
-                    <br>
-                   
+                </div>
+            </div>
+
+            <div class="project">
+                <h3>CaseBox</h3>
+                <p>A comprehensive management tool tailored for law offices, focusing on task organization and client management.</p>
+                <div class="store-badges">
                     <a href="https://apps.apple.com/tr/app/casebox/id6475390429" target="_blank">
-                        <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="App Store" style="height: 40px;">
+                        <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store">
                     </a>
                     <a href="https://play.google.com/store/apps/details?id=com.example.casebox" target="_blank">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play Store" style="height: 40px;">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play">
                     </a>
-                </li>
-            </ul>
+                </div>
+            </div>
         </section>
-        <section>
+
+        <section id="contact" class="contact">
             <h2>Contact</h2>
-            <p>If you'd like to connect, feel free to reach out via email or follow me on social media:</p>
+            <p>If you'd like to collaborate or just have a chat, feel free to reach out!</p>
             <div class="contact-links">
                 <a href="mailto:irfan@example.com">Email Me</a>
                 <a href="https://www.linkedin.com/in/irfan-vural-16ba64223/" target="_blank">LinkedIn</a>
@@ -54,8 +69,9 @@
             </div>
         </section>
     </main>
+
     <footer>
-        <p>&copy; 2024 Irfan. All Rights Reserved.</p>
+        <p>&copy; 2024 İrfan Vural. All Rights Reserved.</p>
     </footer>
 </body>
 </html>
