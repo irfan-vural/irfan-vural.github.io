@@ -1,77 +1,113 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>İrfan Vural | Software Developer</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <title>İrfan Vural | iOS Developer & Engineering Student</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+
+    <nav>
+        <div class="container">
+            <div class="logo">İrfan<span>Vural</span></div>
+            <ul>
+                <li><a href="#hakkimda">Hakkımda</a></li>
+                <li><a href="#projeler">Projeler</a></li>
+                <li><a href="#iletisim">İletişim</a></li>
             </ul>
-        </nav>
-        <div class="header-content">
-            <h1>İrfan Vural</h1>
-            <p>Versatile Software Developer | Mobile & Web Solutions</p>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Merhaba, Ben İrfan.</h1>
+                <p class="subtitle">iOS Developer & Bilgisayar Mühendisliği Öğrencisi</p>
+                <p class="description">
+                    SwiftUI ve Firebase ekosisteminde kullanıcı odaklı mobil çözümler geliştiriyorum. 
+                    Verimlilik araçlarından AI entegrasyonlu eğitim platformlarına kadar geniş bir yelpazede kod üretiyorum.
+                </p>
+                <div class="hero-btns">
+                    <a href="assets/cv.pdf" class="btn btn-primary" download>
+                        <i class="fas fa-file-download"></i> CV'mi İndir
+                    </a>
+                    <div class="social-links">
+                        <a href="https://github.com/irfan-vural" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://linkedin.com/in/irfan-vural" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
         </div>
     </header>
 
-    <main>
-        <section id="about" class="about">
-            <h2>About Me</h2>
-            <p>
-                Hello! I'm İrfan, a passionate software developer with over two years of hands-on experience in crafting intuitive and user-friendly applications. My primary focus is on mobile app development using Flutter, though I enjoy exploring various technologies and expanding my skill set. I thrive on solving real-world problems and continuously seek opportunities to innovate and improve.
-            </p>
-        </section>
+    <section id="hakkimda" class="container">
+        <h2 class="section-title">Yeteneklerim</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <i class="fab fa-swift"></i>
+                <h3>iOS Development</h3>
+                <p>SwiftUI, Swift Concurrency, Modern State Management</p>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-fire"></i>
+                <h3>Backend & AI</h3>
+                <p>Firebase (Auth, Firestore, Crashlytics), Gemini AI Integration</p>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-microchip"></i>
+                <h3>Engineering</h3>
+                <p>C++, Gömülü Sistemler, Mühendislik Ekonomisi</p>
+            </div>
+        </div>
+    </section>
 
-        <section id="projects" class="projects">
-            <h2>Projects</h2>
-            <div class="project">
-                <h3>HAK Donation App</h3>
-                <p>A mobile app designed to facilitate humanitarian aid donations efficiently and securely.</p>
-                <div class="store-badges">
-                    <a href="https://apps.apple.com/tr/app/hak-i-nsani-yard%C4%B1m/id1579838385?l=tr" target="_blank">
-                        <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store">
-                    </a>
-                    <a href="https://play.google.com/store/apps/details?id=com.hakinsaniyardim.hakder" target="_blank">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play">
-                    </a>
+    <section id="projeler" class="bg-light">
+        <div class="container">
+            <h2 class="section-title">Öne Çıkan Projeler</h2>
+            <div class="project-grid">
+                
+                <div class="project-card">
+                    <div class="project-header">
+                        <span class="badge">App Store</span>
+                        <h3>Aura App</h3>
+                    </div>
+                    <p>Günlük alışkanlıklarınızı şık ve sade bir arayüzle takip etmenizi sağlayan motivasyon uygulaması. SwiftUI ve Firebase ile geliştirildi.</p>
+                    <div class="tags">
+                        <span>SwiftUI</span> <span>Firebase</span> <span>Analytics</span>
+                    </div>
+                    <a href="https://apps.apple.com/tr/app/aura-daily-routine-focus/id6760900953" class="project-link">Uygulamayı İncele <i class="fas fa-external-link-alt"></i></a>
                 </div>
-            </div>
 
-            <div class="project">
-                <h3>CaseBox</h3>
-                <p>A comprehensive management tool tailored for law offices, focusing on task organization and client management.</p>
-                <div class="store-badges">
-                    <a href="https://apps.apple.com/tr/app/casebox/id6475390429" target="_blank">
-                        <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store">
-                    </a>
-                    <a href="https://play.google.com/store/apps/details?id=com.example.casebox" target="_blank">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play">
-                    </a>
+                <div class="project-card">
+                    <div class="project-header">
+                        <span class="badge badge-ai">AI Project</span>
+                        <h3>FlashCardAI</h3>
+                    </div>
+                    <p>TUS (Tıp Uzmanlık Sınavı) hazırlık sürecini kolaylaştıran, Gemini AI destekli akıllı kart oluşturma platformu.</p>
+                    <div class="tags">
+                        <span>Gemini API</span> <span>SwiftUI</span> <span>Cloud Functions</span>
+                    </div>
+                    <a href="https://apps.apple.com/tr/app/flashai-tus-t%C4%B1p-flashcard/id6762473756" class="project-link">Repo'ya Git <i class="fab fa-github"></i></a>
                 </div>
-            </div>
-        </section>
 
-        <section id="contact" class="contact">
-            <h2>Contact</h2>
-            <p>If you'd like to collaborate or just have a chat, feel free to reach out!</p>
-            <div class="contact-links">
-                <a href="mailto:irfan@example.com">Email Me</a>
-                <a href="https://www.linkedin.com/in/irfan-vural-16ba64223/" target="_blank">LinkedIn</a>
-                <a href="https://github.com/irfan-vural" target="_blank">GitHub</a>
-            </div>
-        </section>
-    </main>
+    
 
-    <footer>
-        <p>&copy; 2024 İrfan Vural. All Rights Reserved.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer id="iletisim">
+        <div class="container">
+            <p>© 2026 İrfan Vural. İstanbul'da ❤️ ile kodlandı.</p>
+            <div class="footer-links">
+                <a href="mailto:irfanvural.dev@gmail.com">E-posta Gönder</a>
+                <a href="https://github.com/irfan-vural">GitHub</a>
+            </div>
+        </div>
     </footer>
+
 </body>
 </html>
