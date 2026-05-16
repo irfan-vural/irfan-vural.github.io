@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>İrfan Vural | Mobile Developer</title>
+    <title>Irfan Vural | Mobile Developer</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
@@ -22,9 +22,10 @@
         <div class="container nav-flex">
             <div class="logo">IRFAN<span>VURAL</span></div>
             <ul class="nav-links">
-                <li><a href="#projects">Projeler</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
                 <li><a href="https://www.linkedin.com/in/irfan-vural-16ba64223/" target="_blank">LinkedIn</a></li>
-                <li><a href="assets/cv.pdf" class="nav-btn" download>CV İndir</a></li>
+                <li><a href="assets/cv.pdf" class="nav-btn" download>CV Download</a></li>
             </ul>
         </div>
     </nav>
@@ -32,28 +33,52 @@
     <header class="hero container">
         <div class="hero-text">
             <span class="badge">Mobile Developer & Computer Engineering</span>
-            <h1>Fikirleri <span class="gradient-text">Flutter ve SwiftUI
-            </span> ile Hayata Geçiriyorum.</h1>
-            <p>Kullanıcı deneyimi odaklı, yüksek performanslı ve modern uygulamalar geliştiriyorum. Firebase ve AI entegrasyonları ile mobil dünyada fark yaratan çözümler üretiyorum.</p>
+            <h1>I bring ideas to life with <span class="gradient-text">Flutter and SwiftUI</span></h1>
+            <p>I develop high-performance, modern applications focused on user experience. I create innovative solutions in the mobile world with robust state management, Firebase, and AI integrations.</p>
             <div class="cta-group">
-                <a href="#projects" class="btn btn-primary">Projelerimi Gör</a>
+                <a href="#projects" class="btn btn-primary">View My Projects</a>
                 <div class="social-icons">
                     <a href="https://github.com/irfan-vural" target="_blank"><i class="fab fa-github"></i></a>
-                    <a href="https://linkedin.com/in/irfan-vural" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.linkedin.com/in/irfan-vural-16ba64223/" target="_blank"><i class="fab fa-linkedin"></i></a>
                 </div>
             </div>
         </div>
     </header>
 
-    <section id="projects" class="container">
+    <section id="experience" class="container" style="padding-top: 100px;">
         <div class="section-header">
-            <h2>Öne Çıkan Çalışmalar</h2>
-            <p>App Store'da yayında olan ve geliştirme aşamasındaki projelerim.</p>
+            <h2>Work Experience</h2>
+            <p>My professional journey in mobile software development.</p>
+        </div>
+
+        <div class="project-grid" style="grid-template-columns: 1fr;">
+            <div class="project-card">
+                <div class="project-content">
+                    <div class="project-tags">
+                        <span>Flutter</span>
+                        <span>Dart</span>
+                        <span>Firebase</span>
+                    </div>
+                    <h3>Flutter Developer @ Istanify Teknoloji A.Ş.</h3>
+                    <p style="color: var(--primary); font-weight: 600; font-size: 0.9rem; margin-bottom: 1rem; margin-top: -0.5rem;">2024 - Present (2 Years)</p>
+                    <p>Developing and maintaining high-performance cross-platform mobile applications. Played a key role in the development and deployment of <strong>CaseBox</strong>, managing the end-to-end lifecycle including UI/UX implementation, complex state management, and monitoring application stability via Firebase Crashlytics.</p>
+                    <a href="https://apps.apple.com/tr/app/casebox/id6475390429" target="_blank" class="project-btn">
+                        View CaseBox on App Store <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="container" style="padding-top: 100px;">
+        <div class="section-header">
+            <h2>Featured Projects</h2>
+            <p>Independent apps available on the App Store.</p>
         </div>
 
         <div class="project-grid">
             <div class="project-card">
-                <div class="project-img-placeholder">
+                <div class="project-img-placeholder ai-gradient">
                     <i class="fab fa-apple"></i>
                 </div>
                 <div class="project-content">
@@ -62,9 +87,9 @@
                         <span>Firebase</span>
                     </div>
                     <h3>Aura - Daily Routine & Focus</h3>
-                    <p>Günlük alışkanlıklarınızı yönetmenizi sağlayan, minimalist ve etkili bir verimlilik aracı. State yönetimi ve veritabanı mimarisi tamamen modern standartlarda kurgulandı.</p>
+                    <p>A minimalist yet effective productivity tool that helps you manage your daily habits. State management and database architecture are entirely designed to modern iOS standards.</p>
                     <a href="https://apps.apple.com/tr/app/aura-daily-routine-focus/id6760900953" target="_blank" class="project-btn">
-                        App Store'da İncele <i class="fas fa-arrow-right"></i>
+                        View on App Store <i class="fas fa-arrow-right"></i>
                     </a>
                 </div>
             </div>
@@ -79,9 +104,9 @@
                         <span>SwiftUI</span>
                     </div>
                     <h3>FlashcardAI</h3>
-                    <p>TUS hazırlık sürecini yapay zeka ile optimize eden akıllı kart uygulaması. Gemini-2.5-flash entegrasyonu ile otomatik içerik üretimi sağlar.</p>
+                    <p>A smart flashcard application that optimizes the TUS preparation process with artificial intelligence. Automatic content generation is provided through Gemini-2.5-flash integration.</p>
                     <a href="https://apps.apple.com/tr/app/flashai-tus-t%C4%B1p-flashcard/id6762473756" target="_blank" class="project-btn">
-                        App Store'da İncele <i class="fas fa-arrow-right"></i>
+                        View on App Store <i class="fas fa-arrow-right"></i>
                     </a>
                 </div>
             </div>
@@ -91,9 +116,9 @@
     <footer class="container">
         <hr>
         <div class="footer-flex">
-            <p>© 2026 İrfan Vural. Tüm hakları saklıdır.</p>
+            <p>© 2026 Irfan Vural. All rights reserved.</p>
             <div class="footer-contact">
-                <a href="mailto:irfanvural.dev@gmail.com">Bana Ulaşın</a>
+                <a href="mailto:irfanvural.dev@gmail.com">Contact Me</a>
             </div>
         </div>
     </footer>
